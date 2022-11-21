@@ -1,7 +1,7 @@
 # open-merchandise-management
 Merchandise program management
 
-Allow to automatically actualize the stock of merchandise according to the sells and the delivery of each when running the program.
+Allow to automatically actualize/REFRESH the stock of merchandise according to the sells and the delivery of each when running the program.
 
 The sells are written on the "Sorties" sheet and the deliveries on the "Entrées" sheet, you can change the name, just make sure to also change
 the string (corresponding to the sheet name) in the source code between line 23 and 27.
