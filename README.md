@@ -20,4 +20,4 @@ The program has an visual interface.
 
 ![Capture d’écran du 2022-11-21 12-33-15](https://user-images.githubusercontent.com/114911243/203041971-4dd67455-d492-4340-83ca-ea53b1eeeeec.png)
 
-
+There is an exe if you just want to click to run the program (use wine for linux)
