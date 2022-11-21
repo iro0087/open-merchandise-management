@@ -8,6 +8,7 @@ the string (corresponding to the sheet name) in the source code between line 23 
 
 The original features that provides this program is that it allows you to search for the volume of sells, deliveries or stock between two different date
 not necerssarily knowing the date. In fact the program will take as a time interval the values that are the closest to the given one.
+At the End of the run a New results file will be created.
 
 The program has an visual interface.
 
