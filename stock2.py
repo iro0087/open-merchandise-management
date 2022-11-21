@@ -644,9 +644,9 @@ def searchw(event=None):
 
     fen2.bind("a", stock)
 
-    fen2.bind("<Left>", vard_)
+    #fen2.bind("<Left>", vard_)
 
-    fen2.bind("<Right>", vard2_)
+    #fen2.bind("<Right>", vard2_)
 
     fen2.bind("<Down>", varf_)
 
@@ -662,7 +662,7 @@ Button(fen, text="REFRESH", command=stock, bg="yellow").pack()
 
 Label(fen, text="").pack()
 
-Button(fen, text="Search between date", command=searchw, bg="yellow").pack()
+Button(fen, text="Search between dates", command=searchw, bg="yellow").pack()
 
 fen.bind("w", searchw)
 
