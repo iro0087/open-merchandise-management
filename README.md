@@ -10,6 +10,8 @@ The original features that provides this program is that it allows you to search
 not necerssarily knowing the date. In fact the program will take as a time interval the values that are the closest to the given one.
 At the End of the run a New results file will be created.
 
+The programm offers shortcuts ("a" to actualy refresh the stock according to deliveries and sells, "w" to search between dates, and "q" to quit) 
+
 The program has an visual interface.
 
 ![Capture d’écran du 2022-11-21 12-32-57](https://user-images.githubusercontent.com/114911243/203041110-070dbb2e-59ff-4705-9eb0-729f30f1c8e4.png)
