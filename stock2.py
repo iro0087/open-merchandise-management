@@ -585,6 +585,10 @@ def searchw(event=None):
             t += 1
 
         sf.save(name)
+        
+        Label(fen2, text="").pack()
+
+        Label(fen2, text="done").pack()
 
     fen2 = Tk()
 
