@@ -1,4 +1,4 @@
-# open-stock-management
+# open-merchandise-management
 Merchandise program management
 
 Allow to automatically actualize the stock of merchandise according to the sells and the delivery of each when running the program.
