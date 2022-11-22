@@ -1,5 +1,5 @@
 # open-merchandise-management
-Merchandise program management
+Merchandise stock program management
 
 Allow to automatically actualize/REFRESH the stock of merchandise, according to the sells and the deliveries, when running the program. See "stock.xlsx" as an example.
 
