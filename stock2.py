@@ -80,13 +80,13 @@ def stock(event3=None):
 
     if t_ec != sb2.cell(row=1, column=2).value:
         
-        t = t_ec 
+        t = sb2.cell(row=1, column=2).value
 
         t2 = 3
 
         t_adjust = t2 #can be modified
 
-        while t < t_sc:
+        while t < t_ec:
 
             while t2 < t_element:
 
@@ -110,7 +110,7 @@ def stock(event3=None):
 
     if t_sc != sb2.cell(row=2, column=2).value:
         
-        t = t_sc 
+        t = sb2.cell(row=2, column=2).value
 
         t2 = 3
 
