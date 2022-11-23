@@ -92,8 +92,6 @@ def stock(event3=None):
 
                 if s4.cell(row=t, column=t2).value != None:
 
-                    s4.cell(row=t, column=t2).value = float(s4.cell(row=t, column=t2).value)
-
                     entreel[t2 - t_adjust] = entreel[t2 - t_adjust] + float(s4.cell(row=t, column=t2).value)
 
                 t2 += 1
@@ -124,7 +122,7 @@ def stock(event3=None):
 
                 if s3.cell(row=t, column=t2).value != None:
 
-                    s3.cell(row=t, column=t2).value = float(s3.cell(row=t, column=t2).value)
+
 
                     sortiel[t2 - t_adjust] = sortiel[t2 - t_adjust] + float(s3.cell(row=t, column=t2).value)
 
