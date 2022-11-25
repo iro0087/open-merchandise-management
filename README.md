@@ -26,5 +26,6 @@ There is an exe if you just want to click to run the program (use wine for linux
 
 First use:
 
-    Make sure to start with blank sheets, not like in the examples (they aim to show the architecture of the sheets to respect)
-    Match the number of sells and orders in the "e.xlsx" file
+   Make sure to start with blank sheets, not like in the examples (they aim to show the architecture of the sheets to respect)
+    
+   Match the number of sells and orders in the "e.xlsx" file
