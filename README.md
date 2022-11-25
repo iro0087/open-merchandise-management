@@ -7,9 +7,9 @@ The sells are written on the "Sorties" sheet and the deliveries on the "Entrées
 the string (corresponding to the sheet name) in the source code between line 23 and 27.
 So the file you want to modify is "stock.xlsx".
 
-The original feature that provides this program is that it allows you to search for the volume of sells, deliveries or stock between two different date
-not necerssarily knowing the date. In fact the program will take as a time interval the values that are the closest to the given one.
-At the end of the run a new results file will be created.
+The original feature that provides this program is its ability to search for the volume of sells, received items or stock between two different dates
+not necerssarily knowing the dates. In fact the program will take as a time interval the values that are the closest to those provided.
+At the end of the run, a new results file will be created.
 If you want to modify the number given at the end of the results file's name, modify the number in "dedicated.xlsx".
 
 The programm offers shortcuts ("a" to actualy refresh the stock according to deliveries and sells, "w" to search between dates, and "q" to quit) 
