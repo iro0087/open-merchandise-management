@@ -32,11 +32,11 @@ def stock(event3=None):
 
     s = load_workbook("stock.xlsx")
 
-    s2 = s["Stock CDS"]  #can be modified
+    s2 = s["Stock"]  #can be modified
 
-    s3 = s["Sorties"]
+    s3 = s["Out"]
 
-    s4 = s["Entrées"]
+    s4 = s["In"]
 
     sb = load_workbook("e.xlsx")
 
