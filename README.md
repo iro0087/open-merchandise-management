@@ -23,3 +23,8 @@ The program has an visual interface.
 There is an exe if you just want to click to run the program (use wine for linux)
 
 "e.xlsx" is not meant to be edited.
+
+First use:
+
+    -Make sure to start with blank sheets, not like in the examples (they aim to show the architecture of the sheets to respect)
+    -Match the number of sells and orders in the "e.xlsx" file
