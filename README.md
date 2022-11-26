@@ -3,7 +3,7 @@ Merchandise stock program management
 
 Allow to automatically actualize/REFRESH the stock of merchandise, according to the sells and recieved items, when running the program. See "stock.xlsx" as an example.
 
-The sells are written on the "Sorties" sheet and the deliveries on the "Entrées" sheet, you can change the name, just make sure to also change
+The sells are written on the "Out" sheet and the deliveries on the "In" sheet, you can change the name, just make sure to also change
 the string (corresponding to the sheet name) in the source code between line 23 and 27.
 So the file you want to modify is "stock.xlsx".
 
@@ -29,3 +29,5 @@ First use:
    Make sure to start with blank sheets, not like in the examples (they aim to show the architecture of the sheets to respect)
     
    Match the number of recieved items and orders in the "e.xlsx" file
+   
+   Make sure to have text format for every cells.
