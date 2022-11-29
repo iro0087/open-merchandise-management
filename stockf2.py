@@ -170,9 +170,9 @@ def stock(event3=None):
 
     s.save("stock.xlsx")
 
-    Label(fen2, text="").pack()
+    Label(fen, text="").pack()
 
-    Label(fen2, text="done").pack()
+    Label(fen, text="done").pack()
 
 def searchw(event=None):
 
