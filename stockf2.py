@@ -444,8 +444,6 @@ def searchw(event=None):
 
         while t < il[-1] + 5:
 
-            print("oooo", t)
-
             while t2 < len(lt) + 3:
 
                 if s2.cell(row=t, column=t2).value != None:
@@ -460,8 +458,6 @@ def searchw(event=None):
 
         t = 3
 
-        print(lt)
-
         while s2.cell(row=2, column=t).value != None:
 
             sf2.cell(row=1, column=t-2).value = s2.cell(row=2, column=t).value
@@ -469,6 +465,8 @@ def searchw(event=None):
             sf2.cell(row=2, column=t-2).value = lt[t - 3]
 
             t += 1
+
+        sf.save(name)
 
         sen1 = "The first date is between" + str(s2.cell(row=il[4] + 3, column=2).value) \
                 + " and " + str(s2.cell(row=il[4] + 5, column=2).value)
